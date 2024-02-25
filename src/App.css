@@ -1,6 +1,109 @@
 /* General layout */
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background: #7f7f7f;
+}
+.placeholder {
+    width: 100%;
+    height: 300px;
+}
+
+/* Flex */
+.dflex {
+    display: flex;
+}
+.dflex-jcc-aic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dflex-jcsb-aic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Fonts */
+.exo-extrabold {
+    font-family: Exo2-ExtraBold;
+}
+.roboto-regular {
+    font-family: Roboto-Regular;
+}
+
+/* Colors */
+.color-white {
+    color: #fff;
+}
+.bg-white {
+    background: #fff;
+}
+.color-black {
+    color: #333;
+}
+.bg-black {
+    background: #333;
+}
+.color-darkgray {
+    color: #7f7f7f;
+}
+.bg-darkgray {
+    background: #7f7f7f;
+}
+.color-lightgray {
+    color: #a8a8a8;
+}
+.bg-lightgray {
+    background: #a8a8a8;
+}
+.color-red {
+    color: #ff2d2c;
+}
+.bg-red {
+    background: #ff2d2c;
+}
+.color-yellow {
+    color: #fbda3e;
+}
+.bg-yellow {
+    background: #fbda3e;
+}
+
+/* Spacing */
+.padding-xs {
+    padding: 4px;
+}
+.padding-s {
+    padding: 8px;
+}
+.padding-m {
+    padding: 16px;
+}
+.padding-l {
+    padding: 32px;
+}
+.padding-xl {
+    padding: 64px;
+}
+.margin-xs {
+    margin: 4px;
+}
+.margin-s {
+    margin: 8px;
+}
+.margin-m {
+    margin: 16px;
+}
+.margin-l {
+    margin: 32px;
+}
+.margin-xl {
+    margin: 64px;
+}
+.margin-top-xl {
+    margin-top: 64px;
 }
 
 @media only screen and (min-width: 641px) {
