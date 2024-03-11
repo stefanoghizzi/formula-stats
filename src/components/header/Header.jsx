@@ -1,25 +1,22 @@
 import './Header.css';
-import logo from '../../assets/logo.png';
-import menu from '../../assets/menu.svg';
-import helmet from '../../assets/helmet.svg';
+import { useState } from 'react';
+import HeaderHead from './HeaderHead';
+import HeaderMain from './HeaderMain';
 
 function Header() {
+    const [menuVisibility, setMenuVisibility] = useState('false');
+
+    const headerClassName = `header ${
+        menuVisibility ? 'closed' : 'opened'
+    } bg-black p-s`;
+
     return (
-        <header className="header dflex-jcsb-aic bg-black padding-s">
-            <div className="dflex-jcc-aic">
-                <img className="logo" src={logo} alt="Formula stats logo" />
-                <span className="title color-white exo-extrabold margin-s">
-                    Formula Stats
-                </span>
-            </div>
-            <div className="dflex-jcc-aic">
-                <img
-                    className="helmet margin-m"
-                    src={helmet}
-                    alt="Formula stats logo"
-                />
-                <img className="menu" src={menu} alt="Formula stats logo" />
-            </div>
+        <header className={headerClassName}>
+            <HeaderHead
+                menuVisibility={menuVisibility}
+                setMenuVisibility={setMenuVisibility}
+            />
+            <HeaderMain />
         </header>
     );
 }

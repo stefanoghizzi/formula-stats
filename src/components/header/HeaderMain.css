@@ -1,0 +1,15 @@
+.header .header-head .title {
+    font-size: 20px;
+}
+.header .header-head .logo {
+    width: 48px;
+}
+.header .header-head .helmet {
+    width: 36px;
+}
+.header .header-head .menu {
+    width: 34px;
+}
+.header .header-main span {
+    border-bottom: 1px solid #fff;
+}
