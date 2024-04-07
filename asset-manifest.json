@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/formula-stats/static/css/main.62118575.css",
-    "main.js": "/formula-stats/static/js/main.d00e431f.js",
+    "main.css": "/formula-stats/static/css/main.d377591e.css",
+    "main.js": "/formula-stats/static/js/main.fccc6113.js",
     "static/js/453.27d1c172.chunk.js": "/formula-stats/static/js/453.27d1c172.chunk.js",
     "static/media/Roboto-Regular.ttf": "/formula-stats/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "static/media/Exo2-ExtraBold.ttf": "/formula-stats/static/media/Exo2-ExtraBold.d3226e5c70d672dcd164.ttf",
@@ -10,12 +10,12 @@
     "index.html": "/formula-stats/index.html",
     "static/media/menu.svg": "/formula-stats/static/media/menu.6d68c11df64ea688b1fe30c53255cd1a.svg",
     "static/media/close.svg": "/formula-stats/static/media/close.82f28e384f03fda7e3e3c50b9e50a5c1.svg",
-    "main.62118575.css.map": "/formula-stats/static/css/main.62118575.css.map",
-    "main.d00e431f.js.map": "/formula-stats/static/js/main.d00e431f.js.map",
+    "main.d377591e.css.map": "/formula-stats/static/css/main.d377591e.css.map",
+    "main.fccc6113.js.map": "/formula-stats/static/js/main.fccc6113.js.map",
     "453.27d1c172.chunk.js.map": "/formula-stats/static/js/453.27d1c172.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.62118575.css",
-    "static/js/main.d00e431f.js"
+    "static/css/main.d377591e.css",
+    "static/js/main.fccc6113.js"
   ]
 }
