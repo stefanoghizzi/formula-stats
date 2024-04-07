@@ -1,0 +1,13 @@
+.circuit {
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+.circuit .circuit-state,
+.circuit .circuit-name,
+.circuit .circuit-lenght,
+.circuit .circuit-laps {
+    text-transform: uppercase;
+}
+.circuit .circuit-image {
+    width: 95%;
+}

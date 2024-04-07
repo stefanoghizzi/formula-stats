@@ -1,10 +1,10 @@
-import './HeaderHead.css';
-import logo from '../../assets/logo.png';
-import helmet from '../../assets/helmet.svg';
-import menu from '../../assets/menu.svg';
-import close from '../../assets/close.svg';
+import './OuterNavbar.css';
+import logo from '../../assets/library/logo.png';
+import helmet from '../../assets/library/helmet.svg';
+import menu from '../../assets/library/menu.svg';
+import close from '../../assets/library/close.svg';
 
-function HeaderHead({ menuVisibility, setMenuVisibility }) {
+function OuterNavbar({ menuVisibility, setMenuVisibility }) {
     const menuIcon = menuVisibility ? menu : close;
 
     let handleClick = () => {
@@ -12,7 +12,7 @@ function HeaderHead({ menuVisibility, setMenuVisibility }) {
     };
 
     return (
-        <div className="header-head dflex-jcsb-aic">
+        <div className="outer-navbar dflex-jcsb-aic">
             <div className="dflex-jcc-aic">
                 <img className="logo" src={logo} alt="Formula stats logo" />
                 <span className="title color-white exo-extrabold ml-xs">
@@ -32,4 +32,4 @@ function HeaderHead({ menuVisibility, setMenuVisibility }) {
     );
 }
 
-export default HeaderHead;
+export default OuterNavbar;

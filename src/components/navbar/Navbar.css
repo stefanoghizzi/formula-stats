@@ -1,14 +1,17 @@
-.header {
+.navbar {
     width: 100%;
     position: fixed;
     top: 0;
     transition: height 1s;
 }
-.header.closed {
+.navbar.closed {
     height: 64px;
     border-bottom: 1px solid #fff;
 }
-.header.opened {
+.navbar.closed .inner-navbar {
+    display: none;
+}
+.navbar.opened {
     height: 100%;
     border-bottom: none;
 }

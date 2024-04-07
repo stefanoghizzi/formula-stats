@@ -1,24 +1,24 @@
-import './Header.css';
+import './Navbar.css';
 import { useState } from 'react';
-import HeaderHead from './HeaderHead';
-import HeaderMain from './HeaderMain';
+import OuterNavbar from './OuterNavbar';
+import InnerNavbar from './InnerNavbar';
 
-function Header() {
+function Navbar() {
     const [menuVisibility, setMenuVisibility] = useState('false');
 
-    const headerClassName = `header ${
+    const navbarClassName = `navbar ${
         menuVisibility ? 'closed' : 'opened'
     } bg-black p-s`;
 
     return (
-        <header className={headerClassName}>
-            <HeaderHead
+        <header className={navbarClassName}>
+            <OuterNavbar
                 menuVisibility={menuVisibility}
                 setMenuVisibility={setMenuVisibility}
             />
-            <HeaderMain />
+            <InnerNavbar />
         </header>
     );
 }
 
-export default Header;
+export default Navbar;

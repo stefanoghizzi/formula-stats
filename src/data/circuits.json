@@ -1,0 +1,20 @@
+{
+    "circuits": [
+        {
+            "state": "belgian",
+            "name": "spa-francorchamps",
+            "flag": "https://placehold.co/64x42",
+            "image": "https://placehold.co/375x250",
+            "lenght": 7.004,
+            "laps": 44
+        },
+        {
+            "state": "japanese",
+            "name": "suzuka",
+            "flag": "https://placehold.co/64x42",
+            "image": "https://placehold.co/375x250",
+            "lenght": 5.807,
+            "laps": 53
+        }
+    ]
+}
